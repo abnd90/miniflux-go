@@ -1,6 +1,7 @@
 Go Library for Miniflux
 =======================
 [![Build Status](https://travis-ci.org/miniflux/miniflux-go.svg?branch=master)](https://travis-ci.org/miniflux/miniflux-go)
+[![GoDoc](https://godoc.org/github.com/miniflux/miniflux-go?status.svg)](https://godoc.org/github.com/miniflux/miniflux-go)
 
 Client library for Miniflux REST API.
 
