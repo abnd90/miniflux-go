@@ -366,11 +366,11 @@ func buildFilterQueryString(path string, filter *Filter) string {
 			values.Set("order", filter.Order)
 		}
 
-		if filter.Limit != 0 {
+		if filter.Limit >= 0 {
 			values.Set("limit", strconv.Itoa(filter.Limit))
 		}
 
-		if filter.Offset != 0 {
+		if filter.Offset >= 0 {
 			values.Set("offset", strconv.Itoa(filter.Offset))
 		}
 
