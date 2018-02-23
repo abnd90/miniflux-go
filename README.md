@@ -26,7 +26,7 @@ package main
 
 import (
 	"fmt"
-
+    "io/ioutil"
 	"github.com/miniflux/miniflux-go"
 )
 
